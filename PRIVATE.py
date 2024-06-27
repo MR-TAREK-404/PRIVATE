@@ -6,4 +6,4 @@ bit = platform.architecture()[0]
 if bit == '64bit':
     import pers_64
 elif bit == '32bit':
-    import personal_32
+    import pers_32
