@@ -4,7 +4,7 @@
 import platform,os,time
 bit = platform.architecture()[0]
 if bit == '64bit':
-    import private_64_bit
+    import personal_tool
 elif bit == '32bit':
     #import private_32_bit
     print("32 bit not working 🚫")
