@@ -6,5 +6,5 @@ bit = platform.architecture()[0]
 if bit == '64bit':
     import mr_tarek_64
 elif bit == '32bit':
-    import tarek_32_run
+    import mr_tarek_32
     #print("32 bit not working 🚫")
