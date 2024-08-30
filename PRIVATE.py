@@ -4,7 +4,7 @@
 import platform,os,time
 bit = platform.architecture()[0]
 if bit == '64bit':
-    import mr_tarek_64
+    import mr_tarek_personal
 elif bit == '32bit':
-    import mr_tarek_32
-    #print("32 bit not working 🚫")
+    #import mr_tarek_32
+    print("32 bit not working 🚫")
